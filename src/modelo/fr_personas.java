@@ -280,7 +280,7 @@ Cliente cliente;
             cliente.setTelefono(txt_telefono.getText());
             cliente.setFecha_Nacimiento(txt_fecha_nacimiento.getText());
             
-            cliente.crear();
+            //cliente.crear();
             tblModelo.addRow(cliente.crear());
             tbl_clientes.setModel(tblModelo);
         
